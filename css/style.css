@@ -3,58 +3,37 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url("https://fonts.googleapis.com/css?family=News+Cycle");
 @import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
-footer .glyphicon {
+
+/*************************************************/
+
+/* TIPOS DE LETRAS */
+
+p {  /* Cuerpo de Texto */
+
+    font-family: 'News Cycle', sans-serif;
     font-size: 20px;
-    margin-bottom: 20px;
-    color: #f4511e;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 190px;
+    margin-left: 35px;
+    text-align: justify;
 }
-ul {
-    list-style-color: red;
-}
-.video {
-    border: 2px solid #f4511e;
-    margin-bottom: 25px;
-    margin-left: 2cm;
-    opacity: 0.7;
-    border-radius: 10%;
-    width: 480px;
-    height: 315px;
-}
-.contenedor {
-    margin-left: 3.2cm;
-}
-.container-fluid {
-    margin-left: 85px;
-}
-main {
-    margin-top: 2cm;
-}
-.banner {
-    border: 2px solid #ff6347;
-    margin-left: 7cm;
-}
-ul {
-    list-style-type: square;
-    overflow: hidden;
-}
-body {
-    /*  border: 4px solid black; */
-    background-image: url("../img/fondos/nose.png"), url("../img/fondos/2.gif");
-    background-size: auto;
-    background-repeat: repeat;
-}
-h1 {
+
+h1 { /* SUB TITULO */
+
     font-family: 'Lobster', cursive;
     font-size: 35px;
     color: rgb(28, 51, 68);
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 40px;
+    margin-left: 50px;
     text-align: left;
     text-decoration: underline;
     text-shadow: 3px 2px #A4A4A4;
 }
-h2 {
+
+h2 { /* TITULO */
+
     font-family: 'Lobster', cursive;
     font-size: 50px;
     color: #151515;
@@ -62,37 +41,100 @@ h2 {
     text-decoration: underline;
     text-shadow: 3px 2px #A4A4A4;
     margin-top: 45px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+    margin-left: 20px;
 }
-h3 {
+
+h3 { /* VENTAJAS Y DESVENTAJAS */
+
     font-family: 'Hammersmith One', sans-serif;
     color: rgb(0, 0, 55);
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 170px;
+    margin-left: 20px;
     text-align: center;
 }
-h4 {
+
+h4 { /* BIBLIOGRAFÍA */
+
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 320px;
+    margin-left: 170px;
     text-align: center;
 }
-h5 {
+
+h4.dashed { /* COLOR */
+
+  border-left: 7px solid rgb(255, 227, 89);
+  background-color: rgb(234, 234, 234);
+
+}
+
+
+h5 { /* SUB-SUB TITULO */
+
     font-family: 'News Cycle', sans-serif;
     font-size: 25px;
     text-align: left;
 }
-p {
-    font-family: 'News Cycle', sans-serif;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-right: 30px;
-    margin-left: 4px;
-    text-align: justify;
+
+/*************************************************/
+
+/* CUERPO */
+
+body {
+    /*  border: 4px solid black; */
+    background-image: url("../img/fondos/nose.png"), url("../img/fondos/2.gif");
+    background-size: auto;
+    background-repeat: repeat;
 }
+
+.contenedor {
+    margin-left: 3.2cm;
+}
+.container-fluid {
+    margin-left: 85px;
+}
+
+main {
+    margin-top: 2cm;
+}
+
+.center {
+    margin: auto;
+    width: 40%;
+    padding: 15px;
+}
+
+/*************************************************/
+
+/* LISTAS */
+
+ul {
+    list-style-image: url('../img/punt.png');
+    overflow: hidden;
+}
+
+li {
+
+}
+
+/*************************************************/
+
+/* BANNER */
+
+.banner {
+    border: 2px solid #ff6347;
+    margin-left: 7cm;
+}
+
 .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
@@ -114,8 +156,58 @@ p {
     border-color: transparent;
     color: #fff !important;
 }
-.center {
-    margin: auto;
-    width: 40%;
-    padding: 15px;
+
+/*************************************************/
+
+/* PIE DE PAGINA */
+
+.footer {
+    margin-left: -2cm;
+    text-shadow: 3px 2px white;
 }
+
+footer .glyphicon {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left: -2.5cm;
+    color: #f4511e;
+}
+/*************************************************/
+
+/* BUSCADOR */
+
+
+input[type=text] {
+    width: 140px;
+    box-sizing: border-box;
+    border: 2px solid #f4511e;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 35%;
+}
+
+/*************************************************/
+
+/* VIDEOS */
+
+.video {
+    border: 2px solid #f4511e;
+    margin-bottom: 25px;
+    margin-left: 2cm;
+    opacity: 0.7;
+    border-radius: 10%;
+    width: 480px;
+    height: 315px;
+}
+
+/*************************************************/
