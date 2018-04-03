@@ -3,13 +3,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url("https://fonts.googleapis.com/css?family=News+Cycle");
 @import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
-
 /*************************************************/
 
 /* TIPOS DE LETRAS */
 
-p {  /* Cuerpo de Texto */
-
+p {
+    /* Cuerpo de Texto */
     font-family: 'News Cycle', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -18,9 +17,8 @@ p {  /* Cuerpo de Texto */
     margin-left: 35px;
     text-align: justify;
 }
-
-h1 { /* SUB TITULO */
-
+h1 {
+    /* SUB TITULO */
     font-family: 'Lobster', cursive;
     font-size: 35px;
     color: rgb(28, 51, 68);
@@ -31,9 +29,8 @@ h1 { /* SUB TITULO */
     text-decoration: underline;
     text-shadow: 3px 2px #A4A4A4;
 }
-
-h2 { /* TITULO */
-
+h2 {
+    /* TITULO */
     font-family: 'Lobster', cursive;
     font-size: 50px;
     color: #151515;
@@ -45,9 +42,8 @@ h2 { /* TITULO */
     margin-right: 100px;
     margin-left: 20px;
 }
-
-h3 { /* VENTAJAS Y DESVENTAJAS */
-
+h3 {
+    /* VENTAJAS Y DESVENTAJAS */
     font-family: 'Hammersmith One', sans-serif;
     color: rgb(0, 0, 55);
     font-size: 30px;
@@ -57,9 +53,8 @@ h3 { /* VENTAJAS Y DESVENTAJAS */
     margin-left: 20px;
     text-align: center;
 }
-
-h4 { /* BIBLIOGRAFÍA */
-
+h4 {
+    /* BIBLIOGRAFÍA */
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     color: black;
@@ -69,22 +64,17 @@ h4 { /* BIBLIOGRAFÍA */
     margin-left: 170px;
     text-align: center;
 }
-
-h4.dashed { /* COLOR */
-
-  border-left: 7px solid rgb(255, 227, 89);
-  background-color: rgb(234, 234, 234);
-
+h4.dashed {
+    /* COLOR */
+    border-left: 7px solid rgb(255, 227, 89);
+    background-color: rgb(234, 234, 234);
 }
-
-
-h5 { /* SUB-SUB TITULO */
-
+h5 {
+    /* SUB-SUB TITULO */
     font-family: 'News Cycle', sans-serif;
     font-size: 25px;
     text-align: left;
 }
-
 /*************************************************/
 
 /* CUERPO */
@@ -95,24 +85,20 @@ body {
     background-size: auto;
     background-repeat: repeat;
 }
-
 .contenedor {
     margin-left: 3.2cm;
 }
 .container-fluid {
     margin-left: 85px;
 }
-
 main {
     margin-top: 2cm;
 }
-
 .center {
     margin: auto;
     width: 40%;
     padding: 15px;
 }
-
 /*************************************************/
 
 /* LISTAS */
@@ -121,11 +107,7 @@ ul {
     list-style-image: url('../img/punt.png');
     overflow: hidden;
 }
-
-li {
-
-}
-
+li {}
 /*************************************************/
 
 /* BANNER */
@@ -134,7 +116,6 @@ li {
     border: 2px solid #ff6347;
     margin-left: 7cm;
 }
-
 .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
@@ -156,7 +137,6 @@ li {
     border-color: transparent;
     color: #fff !important;
 }
-
 /*************************************************/
 
 /* PIE DE PAGINA */
@@ -165,7 +145,6 @@ li {
     margin-left: -2cm;
     text-shadow: 3px 2px white;
 }
-
 footer .glyphicon {
     font-size: 40px;
     margin-bottom: 40px;
@@ -175,7 +154,6 @@ footer .glyphicon {
 /*************************************************/
 
 /* BUSCADOR */
-
 
 input[type=text] {
     width: 140px;
@@ -191,11 +169,9 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-
 input[type=text]:focus {
     width: 35%;
 }
-
 /*************************************************/
 
 /* VIDEOS */
@@ -209,5 +185,4 @@ input[type=text]:focus {
     width: 480px;
     height: 315px;
 }
-
 /*************************************************/
